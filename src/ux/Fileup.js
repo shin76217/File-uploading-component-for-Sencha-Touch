@@ -159,6 +159,7 @@ Ext.define('Ext.ux.Fileup', {
             ]
         },
                 
+
         // Hidden file element
         {
             tag: 'form',
@@ -167,6 +168,10 @@ Ext.define('Ext.ux.Fileup', {
             
             children: [
                 {
+                        
+                    capture: "camera", //  add for get pic from camera
+                    accept: "image/*", //  add for get pic from camera
+
                     tag: 'input',
                     reference: 'fileElement',
                     type: 'file',
@@ -177,6 +182,7 @@ Ext.define('Ext.ux.Fileup', {
                 }
             ]
         }
+
     ],
     
     // Default button states config

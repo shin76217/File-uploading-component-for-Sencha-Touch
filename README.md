@@ -118,6 +118,6 @@ Installing:
             failure: 'yourFileUploadFailureHandler'
         });
         
-Live demo: 
-==========
-http://mindsaur.com/demo/fileupload
+fork from [kostysh/File-uploading-component-for-Sencha-Touch](https://github.com/kostysh/File-uploading-component-for-Sencha-Touch)
+
+add support html5 in mobile upload picture use camera
